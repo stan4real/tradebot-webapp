@@ -1,10 +1,12 @@
 import { navMenu } from "../../helpers/static"
+import useResize from "../../hooks/useResize"
 
 const NavMenu = () => {
-    const windowHeight = `${window.innerHeight}px`
+    const size = useResize()
     const selectedMenu = "Dashboard"
+
   return (
-    <div  style={{top:windowHeight}} className={`fixed z-10 left-0 -translate-y-full h-12 w-full bg-lightblue`}>
+    <div  style={{top:`${size[1]}px`}} className={`fixed z-10 left-0 -translate-y-full h-12 w-full bg-lightblue`}>
         <div className="h-full px-4 flex items-center justify-between">
             {
                 navMenu.map((menu,index) => {

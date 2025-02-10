@@ -29,10 +29,10 @@
     background-image: url("/bg_2.png");
   }
   .wrapper {
-    @apply  pt-[28px] max-w-7xl mx-auto flex flex-col relative z-10 pb-12
+    @apply  pt-[28px] max-w-7xl mx-auto flex flex-col relative z-10
   }
   .cells{
-    @apply bg-cover w-full h-[200px];
+    @apply bg-cover w-full h-[180px];
   }
 }
 
