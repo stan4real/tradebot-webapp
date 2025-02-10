@@ -37,7 +37,12 @@ const BotItem = ({
             if(selectedBot.name === data.name)
                 return
         }
+
         setSelectedBot(data)
+
+        if(!data){
+            return 
+        }
         setGraphData(changeGraphData(staticGraphData))
     }
 
