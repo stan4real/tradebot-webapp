@@ -33,10 +33,10 @@ const Bots = ({setGraphData}:BotsProps) => {
                     />
                 })
             }
-            <img src="/top_left_arrow.png" className='absolute top-1/2 left-1/3 z-10 -translate-x-[calc(33.333%+1px)] -translate-y-[calc(50%+2px)]  w-[38px] h-[40px] -rotate-7 pointer-events-none'/>
-            <img src="/bottom_left_arrow.png" className='absolute top-3/4 left-1/3 z-10 -translate-x-[calc(33.333%+4px)] -translate-y-[calc(50%+2px)]  w-[48px] pointer-events-none'/>
-            <img src="/top_right_arrow.png" className='absolute top-1/2 left-2/3 z-10 -translate-x-[calc(33.333%+9px)] -translate-y-[calc(50%+4px)]  w-[40px] h-[42px] rotate-7 pointer-events-none'/>
-            <img src="/bottom_right_arrow.png" className='absolute top-3/4 left-2/3 z-10 -translate-x-[calc(33.333%+9px)] -translate-y-[calc(50%+3px)]  w-[50px] pointer-events-none'/>
+            <img src="/tradebot-webapp/top_left_arrow.png" className='absolute top-1/2 left-1/3 z-10 -translate-x-[calc(33.333%+1px)] -translate-y-[calc(50%+2px)]  w-[38px] h-[40px] -rotate-7 pointer-events-none'/>
+            <img src="/tradebot-webapp/bottom_left_arrow.png" className='absolute top-3/4 left-1/3 z-10 -translate-x-[calc(33.333%+4px)] -translate-y-[calc(50%+2px)]  w-[48px] pointer-events-none'/>
+            <img src="/tradebot-webapp/top_right_arrow.png" className='absolute top-1/2 left-2/3 z-10 -translate-x-[calc(33.333%+9px)] -translate-y-[calc(50%+4px)]  w-[40px] h-[42px] rotate-7 pointer-events-none'/>
+            <img src="/tradebot-webapp/bottom_right_arrow.png" className='absolute top-3/4 left-2/3 z-10 -translate-x-[calc(33.333%+9px)] -translate-y-[calc(50%+3px)]  w-[50px] pointer-events-none'/>
         </div>
 
         <TimeRanges

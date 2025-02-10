@@ -7,23 +7,23 @@ export const timePeriods = [
 
 export const navMenu = [
     {
-        img:'/nav/dashboard.png',
+        img:'/tradebot-webapp/nav/dashboard.png',
         name:'Dashboard',
     },
     {
-        img:'/nav/megabotmenu.png',
+        img:'/tradebot-webapp/nav/megabotmenu.png',
         name:'Megabot',
     },
     {
-        img:'/nav/botmarketmenu.png',
+        img:'/tradebot-webapp/nav/botmarketmenu.png',
         name:'Bot market',
     },
     {
-        img:'/nav/coinpricesmenu.png',
+        img:'/tradebot-webapp/nav/coinpricesmenu.png',
         name:'Coin prices',
     },
     {
-        img:'/nav/settingsmenu.png',
+        img:'/tradebot-webapp/nav/settingsmenu.png',
         name:'Profile',
     }
 ]
@@ -31,32 +31,32 @@ export const navMenu = [
 export const botsStatic = [
     {
         name:'orange_bot',
-        img:'/orange_bot.png',
+        img:'/tradebot-webapp/orange_bot.png',
         title:'ATTACK',
     },
     {
         name:'empty_bot',
-        img:'/empty_bot.png',
+        img:'/tradebot-webapp/empty_bot.png',
         title:'PLACE BOT HERE'
     },
     {
         name:'blue_bot',
-        img:'/blue_bot.png',
+        img:'/tradebot-webapp/blue_bot.png',
         title:'BALANCE'
     },
     {
         name:'green_bot',
-        img:'/green_bot.png',
+        img:'/tradebot-webapp/green_bot.png',
         title:'DEFENCE'
     },
     {
         name:'yellow_bot',
-        img:'/megabot.png',
+        img:'/tradebot-webapp/megabot.png',
         title:'MEGABOT'
     },
     {
         name:'red_bot',
-        img:'/red_bot.png',
+        img:'/tradebot-webapp/red_bot.png',
         title:'ATTACK'
     }
 ]
